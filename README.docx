@@ -1,0 +1,44 @@
+Retail SQL Analytics Dashboard
+An end-to-end analytics project using Oracle Database 19c and Streamlit, showcasing retail sales insights.
+The project covers:
+
+Database schema creation (tables, constraints)
+
+Data insertion & sample dataset
+
+SQL queries for sales analysis (top products, revenue trends, customer insights, etc.)
+
+Interactive UI to run queries and view results dynamically
+
+Connection to Oracle DB using Python (oracledb library)
+
+Tech Stack:
+
+Database: Oracle 19c
+
+Backend/Logic: Python, SQL
+
+Frontend/UI: Streamlit
+
+Tools: VS Code, SQL Developer, Git
+
+Key Features:
+
+View most popular products
+
+Track monthly sales trends
+
+Identify top customers by spend
+
+Get category-wise performance
+
+Project Structure
+
+1_create_tables.sql # Creates tables and schema
+2_insert_data.sql # Inserts sample data
+3_analysis_queries.sql # SQL queries for analysis
+db_connect.py # Oracle DB connection
+queries.py # Query dictionary for app
+app.py # Streamlit dashboard
+requirements.txt # Python dependencies
+README.md # Project documentation
